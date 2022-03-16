@@ -344,8 +344,11 @@
 "Assets/Scripts/characterMovement.cs"
 "Assets/Scripts/PlayerRestart.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/Scripts/SpawnerIzq.cs"
+"Assets/Scripts/SpawnerPaArriba.cs"
 "Assets/Scripts/SpikeDestroyer.cs"
 "Assets/Scripts/SpikeMovement.cs"
+"Assets/Scripts/SpikeMovHor.cs"
 "Assets/Scripts/Timer.cs"
 -langversion:8.0
 
