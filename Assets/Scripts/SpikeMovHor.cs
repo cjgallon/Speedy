@@ -13,6 +13,7 @@ public class SpikeMovHor : MonoBehaviour
     }
     void Update()
     {
-        _rigidBody.velocity = LaunchVelocity;
+        _rigidBody.velocity = new Vector2(LaunchVelocity.x, _rigidBody.velocity.y);
     }
+
 }
