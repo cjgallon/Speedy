@@ -11,7 +11,7 @@ public class PlayerRestart : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("Player restart");
-            collision.gameObject.transform.position = new Vector3(-9.22f, 1.53f, 0);
+            collision.gameObject.transform.position = new Vector3(-5.22f, 1.53f, 0);
         }
     }
 }

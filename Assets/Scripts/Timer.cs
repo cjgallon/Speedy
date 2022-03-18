@@ -23,7 +23,6 @@ public class Timer : MonoBehaviour
     {
         Crono.text = "tiempo 00:00:00";
         timerBool = false;
-        Timer.instanciar.iniciarTiempo();
 
     }
 
@@ -51,6 +50,12 @@ public class Timer : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void ReiniciarTiempo()
+    {
+        Crono.text = "tiempo 00:00:00";
+        timerBool = false;
     }
 
 }
